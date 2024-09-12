@@ -1,36 +1,42 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import logo from '/images/logo.svg';
+import homeIcon from '/images/home-icon.svg';
+import searchIcon from '/images/search-icon.svg';
+import originalIcon from '/images/original-icon.svg';
+import movieIcon from '/images/movie-icon.svg';
+import seriesIcon from '/images/series-icon.svg';
 
 const Header = () => {
   return (
     <Nav>
       <Logo>
         <Link to="/">
-          <img src="/images/logo.svg" alt="Disney" />
+          <img src={logo} alt="Disney" />
         </Link>
       </Logo>
 
       <>
         <NavMenu>
           <a href="/">
-            <img src="/images/home-icon.svg" alt="HOME" />
+            <img src={homeIcon} alt="HOME" />
             <span>HOME</span>
           </a>
           <a href="#">
-            <img src="/images/search-icon.svg" alt="SEARCH" />
+            <img src={searchIcon} alt="SEARCH" />
             <span>SEARCH</span>
           </a>
           <a href="#">
-            <img src="/images/original-icon.svg" alt="ORIGINAL" />
+            <img src={originalIcon} alt="ORIGINAL" />
             <span>ORIGINAL</span>
           </a>
           <a href="#">
-            <img src="/images/movie-icon.svg" alt="MOVIES" />
+            <img src={movieIcon} alt="MOVIES" />
             <span>MOVIES</span>
           </a>
           <a href="#">
-            <img src="/images/series-icon.svg" alt="SERIES" />
+            <img src={seriesIcon} alt="SERIES" />
             <span>SERIES</span>
           </a>
         </NavMenu>
