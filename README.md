@@ -27,4 +27,4 @@ This project is a front-end clone of Disney+ built using Vite, styled-components
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/disney-plus-clone-ui.git
+   git clone https://github.com/Ashitrai06/disney-plus-clone-ui.git
