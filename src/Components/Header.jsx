@@ -1,42 +1,36 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import logo from '/images/logo.svg';
-import homeIcon from '/images/home-icon.svg';
-import searchIcon from '/images/search-icon.svg';
-import originalIcon from '/images/original-icon.svg';
-import movieIcon from '/images/movie-icon.svg';
-import seriesIcon from '/images/series-icon.svg';
 
 const Header = () => {
   return (
     <Nav>
       <Logo>
         <Link to="/">
-          <img src={logo} alt="Disney" />
+          <img src={import.meta.env.BASE_URL + '/images/logo.svg'} alt="Disney" />
         </Link>
       </Logo>
 
       <>
         <NavMenu>
           <a href="/">
-            <img src={homeIcon} alt="HOME" />
+            <img src={import.meta.env.BASE_URL + '/images/home-icon.svg' } alt="HOME" />
             <span>HOME</span>
           </a>
           <a href="#">
-            <img src={searchIcon} alt="SEARCH" />
+            <img src={import.meta.env.BASE_URL + '/images/search-icon.svg'} alt="SEARCH" />
             <span>SEARCH</span>
           </a>
           <a href="#">
-            <img src={originalIcon} alt="ORIGINAL" />
+            <img src={import.meta.env.BASE_URL + '/images/original-icon.svg'} alt="ORIGINAL" />
             <span>ORIGINAL</span>
           </a>
           <a href="#">
-            <img src={movieIcon} alt="MOVIES" />
+            <img src={import.meta.env.BASE_URL + '/images/movie-icon.svg'} alt="MOVIES" />
             <span>MOVIES</span>
           </a>
           <a href="#">
-            <img src={seriesIcon} alt="SERIES" />
+            <img src={import.meta.env.BASE_URL + '/images/series-icon.svg'} alt="SERIES" />
             <span>SERIES</span>
           </a>
         </NavMenu>

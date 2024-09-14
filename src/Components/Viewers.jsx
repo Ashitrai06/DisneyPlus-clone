@@ -1,48 +1,38 @@
 import React from "react";
 import styled from "styled-components";
-import img1 from "/images/viewers-disney.png"
-import video1 from "/videos/1564674844-disney.mp4"
-import img2 from "/images/viewers-pixar.png"
-import video2 from "/videos/1564676714-pixar.mp4"
-import img3 from "/images/viewers-marvel.png"
-import video3 from "/videos/1564676115-marvel.mp4"
-import img4 from "/images/viewers-starwars.png"
-import video4 from "/videos/1608229455-star-wars.mp4"
-import img5 from "/images/viewers-national.png"
-import video5 from "/videos/1564676296-national-geographic.mp4"
 
 const Viewers = () => {
   return (
     <Container>
       <Wrap>
-        <img src={img1} alt="" />
+        <img src={import.meta.env.BASE_URL + "/images/viewers-disney.png"} alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
-          <source src={video1} type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + "/videos/1564674844-disney.mp4"} type="video/mp4" />
         </video>
       </Wrap>
       <Wrap>
-        <img src={img2} alt="" />
+        <img src={import.meta.env.BASE_URL + "/images/viewers-pixar.png"} alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
-          <source src={video2} type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + "/videos/1564676714-pixar.mp4"} type="video/mp4" />
         </video>
       </Wrap>
       <Wrap>
-        <img src={img3} alt="" />
+        <img src={import.meta.env.BASE_URL + "/images/viewers-marvel.png"} alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
-          <source src={video3} type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + "/videos/1564676115-marvel.mp4"} type="video/mp4" />
         </video>
       </Wrap>
       <Wrap>
-        <img src={img4} alt="" />
+        <img src={import.meta.env.BASE_URL + "/images/viewers-starwars.png"} alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
-          <source src={video4} type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + "/videos/1608229455-star-wars.mp4"} type="video/mp4" />
         </video>
       </Wrap>
       <Wrap>
-        <img src={img5} alt="" />
+        <img src={import.meta.env.BASE_URL + "/images/viewers-national.png"} alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
           <source
-            src={video5}
+            src={import.meta.env.BASE_URL + "/videos/1564676296-national-geographic.mp4"}
             type="video/mp4"
           />
         </video>

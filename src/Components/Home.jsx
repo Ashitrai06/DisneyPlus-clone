@@ -31,7 +31,7 @@ const Container = styled.div`
   padding: 0 calc(3.5vw + 5px);
 
   &:after {
-    background: url("images/home-background.png") center center/cover no-repeat
+    background: url( "/images/home-background.png") center center/cover no-repeat
       fixed;
     content: "";
     position: absolute;
