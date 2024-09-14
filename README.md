@@ -1,8 +1,30 @@
-# React + Vite
+# Disney+ Clone UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a front-end clone of Disney+ built using Vite, styled-components, and Slick Carousel. The aim is to replicate the user interface and experience of the Disney+ streaming service.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+
+## Features
+
+- Responsive design
+- Dynamic movie and series listings
+- Slick carousel for featured content
+- Styled components for modular and maintainable styles
+
+## Technologies Used
+
+- **Vite**: A fast development server and build tool.
+- **React**: A JavaScript library for building user interfaces.
+- **Styled Components**: A library for styling React components using tagged template literals.
+- **Slick Carousel**: A popular carousel library for displaying images and content in a sliding format.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ashitrai06/disney-plus-clone-ui.git
